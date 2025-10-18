@@ -4,158 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kenta Lange - Blog</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Noto Sans', sans-serif;
-            background-color: #1e1e1b;
-            color: #d5d2c5;
-            line-height: 1.6;
-            font-size: 16px;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        header {
-            margin-bottom: 60px;
-        }
-
-        nav {
-            display: flex;
-            gap: 30px;
-            margin-bottom: 40px;
-            flex-wrap: wrap;
-        }
-
-        nav a {
-            color: #d5d2c5;
-            text-decoration: none;
-            font-weight: 400;
-            transition: color 0.3s ease;
-        }
-
-        nav a:hover {
-            color: #17ccea;
-        }
-
-        nav a.active {
-            color: #17ccea;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            font-weight: 500;
-            margin-bottom: 20px;
-            color: #d5d2c5;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            font-weight: 500;
-            margin-bottom: 15px;
-            color: #17ccea;
-        }
-
-        .intro {
-            font-size: 1.1em;
-            line-height: 1.8;
-            margin-bottom: 50px;
-        }
-
-        .blog-post {
-            margin-bottom: 50px;
-            padding-bottom: 40px;
-            border-bottom: 1px solid rgba(213, 210, 197, 0.1);
-        }
-
-        
-
-        .post-header {
-            margin-bottom: 15px;
-        }
-
-        .post-title {
-            font-size: 1.8em;
-            font-weight: 500;
-            color: #17ccea;
-            margin-bottom: 10px;
-            transition: color 0.3s ease;
-        }
-
-        .post-title:hover {
-            color: #b0dc96;
-        }
-
-        .post-meta {
-            display: flex;
-            gap: 20px;
-            font-size: 0.9em;
-            color: rgba(213, 210, 197, 0.6);
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-        }
-
-        .post-date {
-            font-weight: 300;
-        }
-
-        
-
-        .post-excerpt {
-            line-height: 1.7;
-            margin-bottom: 15px;
-        }
-
-        
-
-        footer {
-            margin-top: 80px;
-            padding-top: 30px;
-            border-top: 1px solid rgba(213, 210, 197, 0.2);
-            text-align: center;
-            font-size: 0.9em;
-            color: rgba(213, 210, 197, 0.6);
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2em;
-            }
-
-            .post-title {
-                font-size: 1.5em;
-            }
-
-            .intro {
-                font-size: 1em;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
+        
         <header>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="aboutme.html">About Me</a>
                 <a href="blog.html" class="active">Blog</a>
+                <a href="fourthpage.html">Food Gallery</a>
             </nav>
         </header>
 
         <main>
+            <img src="me.jpg" alt="mypic" width="500" height="600">
             <section>
                 <h1>Blog</h1>
                 <div class="intro">
@@ -165,10 +29,9 @@
 
             <article class="blog-post">
                 <div class="post-header">
-                    <h2 class="post-title">Building my website for class</h2>
+                    <h2>Building my website for class</h2>
                     <div class="post-meta">
-                        <span class="post-date">October, 2025</span>
-                        
+                        <span class="post-date">October, 2025</span> 
                     </div>
                 </div>
                 <div class="post-excerpt">
